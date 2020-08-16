@@ -1,11 +1,18 @@
 {
-  "name": "step-functions-example",
-  "description": "",
-  "version": "0.1.0",
+  "name": "sls-appsync-backend",
+  "version": "1.0.0",
+  "description": "Deploy step function using Serverless",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "bash ./scripts/deploy.bash"
+  },
+  "keywords": [],
+  "author": "Praveen Jaikumar",
   "dependencies": {
-    "serverless-pseudo-parameters": "^1.2.5"
+    "serverless-pseudo-parameters": "^2.5.0"
   },
   "devDependencies": {
+    "aws-sdk": "^2.734.0",
     "serverless-step-functions": "^2.22.1",
     "serverless": "^1.78.1"
   }
